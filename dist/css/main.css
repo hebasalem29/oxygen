@@ -1,3 +1,58 @@
+.header .fr {
+  background-image: url("../imgs/3c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 600px;
+  background-position: center;
+  position: relative; }
+
+.header .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.header .carousel-indicators {
+  display: none; }
+
+.header .carousel-control-prev {
+  left: -150px !important;
+  opacity: 1;
+  font-weight: bold;
+  width: 15px;
+  margin-left: 50px; }
+  .header .carousel-control-prev:before {
+    font-size: 15px;
+    padding: 23px;
+    content: '';
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 50%; }
+  .header .carousel-control-prev {
+    left: 0; }
+
+.header .carousel-control-next {
+  right: -150px;
+  font-weight: bold;
+  opacity: 1;
+  font-size: 10px !important;
+  width: 15px;
+  margin-right: 50px; }
+  .header .carousel-control-next:before {
+    font-size: 15px;
+    padding: 23px;
+    content: '';
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 50%; }
+
+.header .po {
+  left: 0 !important; }
+
+.header .po1 {
+  right: 0 !important; }
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
