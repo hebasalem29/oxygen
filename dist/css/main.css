@@ -114,6 +114,40 @@ a {
 .header .po1 {
   right: 0 !important; }
 
+.nav {
+  position: relative;
+  padding: 10px;
+  background-color: #028fcc; }
+  .nav .ff {
+    position: absolute;
+    top: 30px;
+    display: none;
+    right: 10px; }
+    @media (max-width: 768px) {
+      .nav .ff {
+        display: inline-block; } }
+  @media (max-width: 900px) {
+    .nav {
+      font-size: 14px; } }
+  .nav .logo {
+    margin-top: 10px; }
+  .nav ul {
+    float: right;
+    margin-top: -60px;
+    margin-bottom: -10px; }
+    @media (max-width: 768px) {
+      .nav ul {
+        display: none; } }
+    .nav ul li:first-of-type {
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 28px 10px; }
+    .nav ul li {
+      display: inline-block; }
+      .nav ul li a {
+        font-weight: 400;
+        font-weight: bold;
+        margin-left: 10px; }
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

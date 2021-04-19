@@ -1,0 +1,52 @@
+.nav{
+    position: relative;
+    .ff{
+        @media(max-width:768px)
+        {
+            display: inline-block;
+        }
+        position: absolute;
+        top:30px ;
+        display: none;
+      
+        right: 10px;
+    }
+    @media(max-width:900px)
+    {
+        font-size: 14px;
+    }
+
+   
+   
+   padding: 10px;
+    .logo{
+        margin-top: 10px;
+        img{
+      
+        }
+    }
+    background-color: #028fcc;
+    ul{
+        @media(max-width:768px)
+        {
+display: none;
+        }
+        float: right;
+        margin-top: -60px;
+       margin-bottom: -10px;
+        li:first-of-type{
+            background-color: rgba(0,0,0,.4);
+            padding: 28px 10px; 
+        }
+        li{
+            
+
+            display: inline-block;
+            a{font-weight: 400;
+                
+               font-weight: bold;
+                margin-left: 10px;
+            }
+        }
+    }
+}
