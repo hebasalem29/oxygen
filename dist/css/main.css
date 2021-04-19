@@ -1,4 +1,54 @@
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.header .xx {
+  margin-top: -350px; }
+  .header .xx h1 {
+    font-size: 60px;
+    color: #fff; }
+    @media (max-width: 400px) {
+      .header .xx h1 {
+        font-size: 30px; } }
+    .header .xx h1 span {
+      margin-left: 10PX;
+      color: #028ecb; }
+  .header .xx P {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 70px; }
+  .header .xx .aa {
+    border: 1px solid #6e6d6c;
+    border-radius: 5px;
+    padding: 15px 35px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14PX; }
+    .header .xx .aa:hover {
+      background-color: #028ecb;
+      color: #fff;
+      border: 1px solid #028ecb; }
+  .header .xx .hh {
+    margin-top: 100px; }
+
 .header .fr {
+  background-image: url("../imgs/1c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 600px;
+  background-position: center;
+  position: relative; }
+
+.header .sec {
+  background-image: url("../imgs/2c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 600px;
+  background-position: center;
+  position: relative; }
+
+.header .thr {
   background-image: url("../imgs/3c.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,30 +73,40 @@
   font-weight: bold;
   width: 15px;
   margin-left: 50px; }
-  .header .carousel-control-prev:before {
-    font-size: 15px;
-    padding: 23px;
-    content: '';
-    position: absolute;
-    border: 1px solid #fff;
-    border-radius: 50%; }
-  .header .carousel-control-prev {
-    left: 0; }
+  .header .carousel-control-prev span i {
+    color: #028ecb; }
 
 .header .carousel-control-next {
+  color: #028ecb !important;
   right: -150px;
   font-weight: bold;
   opacity: 1;
-  font-size: 10px !important;
   width: 15px;
   margin-right: 50px; }
-  .header .carousel-control-next:before {
-    font-size: 15px;
-    padding: 23px;
-    content: '';
-    position: absolute;
-    border: 1px solid #fff;
-    border-radius: 50%; }
+  .header .carousel-control-next span i {
+    color: #028ecb; }
+
+.header .prr, .header .prr1 {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  top: 250px; }
+  @media (max-width: 500px) {
+    .header .prr, .header .prr1 {
+      font-size: 12px;
+      width: 30px;
+      height: 30px;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 10px;
+      margin-right: 10px; } }
+  .header .prr:hover, .header .prr1:hover {
+    background-color: #028ecb; }
+  .header .prr:hover span i, .header .prr1:hover span i {
+    color: #fff; }
+  .header .prr:hover, .header .prr1:hover {
+    border: 1px solid #028ecb; }
 
 .header .po {
   left: 0 !important; }
