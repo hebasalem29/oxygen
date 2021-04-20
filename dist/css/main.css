@@ -2,6 +2,12 @@ a {
   text-decoration: none;
   color: #fff; }
 
+* {
+  overflow-x: hidden; }
+
+body {
+  padding-bottom: 1000px; }
+
 .header .xx {
   margin-top: -350px; }
   .header .xx h1 {
@@ -147,6 +153,53 @@ a {
         font-weight: 400;
         font-weight: bold;
         margin-left: 10px; }
+
+.serv {
+  padding-top: 50px;
+  margin-bottom: 50px; }
+  .serv h1 {
+    margin-bottom: 20px; }
+  .serv p {
+    margin-bottom: 50px;
+    color: #666; }
+  .serv .box {
+    margin-bottom: 40px;
+    padding-top: 50px;
+    text-align: center; }
+    .serv .box i {
+      padding-top: 30px;
+      font-size: 30px;
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      color: #fff;
+      text-align: center;
+      background-color: #038fcc; }
+      .serv .box i:hover {
+        background-color: #333; }
+    .serv .box h5 {
+      font-weight: 400;
+      margin-top: 20px; }
+
+.about {
+  background: url("../imgs/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 40px; }
+  .about .ppp {
+    margin-bottom: 40px; }
+    @media (max-width: 768px) {
+      .about .ppp {
+        text-align: center; } }
+  .about .pp .progress {
+    margin-bottom: 20px;
+    border-radius: 0;
+    height: 20px; }
+  .about .pp .progress-bar {
+    text-align: right;
+    padding-right: 10px; }
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com

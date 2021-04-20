@@ -1,0 +1,28 @@
+.about{
+    .ppp{
+    @media(max-width:768px)
+    {
+        text-align: center;
+    }
+    margin-bottom: 40px;
+}
+    
+    background: url('../imgs/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 40px;
+    .pp{
+        .progress{
+            margin-bottom: 20px;
+            border-radius: 0;
+            height: 20px;
+            
+        }
+        .progress-bar{
+            text-align: right;
+            padding-right: 10px;
+        }
+    }
+}
