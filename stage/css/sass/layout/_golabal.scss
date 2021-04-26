@@ -4,6 +4,15 @@ a{
 }
  
 body{
-    padding-bottom: 1000px;
-    overflow-x: visible;
+    //padding-bottom: 1000px;
+    overflow-x: hidden;
+    .row{
+        overflow-x: hidden;
+    }
 }
+.row{
+    overflow:hidden;
+}
+/*.carousel{
+    overflow-x:hidden;
+}*/

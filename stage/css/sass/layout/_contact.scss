@@ -1,0 +1,133 @@
+.contact{
+    padding-bottom: 100px;
+    background: url('../imgs/contact-bg.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    h1{
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    p{
+        padding-bottom: 50px;
+    }
+    form{
+        @media(max-width:786px)
+        {
+            .rr,.ss,textarea,input{
+                width: 100% !important;
+
+            }
+        }
+
+        .rr{
+            width: 39%;
+            padding: 10px;
+            margin: 5px;
+            background-color: transparent;
+            border: 1px solid #ccc;
+            margin-bottom: 30px;
+            &:active
+            {
+                border: 1px solid #66afe9;
+            }
+        }
+        .ss,textarea{
+            margin: 5px;
+            padding: 10px;
+            display: block;
+            width: 80%;
+            background-color: transparent;
+            border: 1px solid #ccc;
+            margin-bottom: 30px;
+            &:focus
+            {
+                border: 1px solid #66afe9;
+            }
+        }
+        textarea{
+            padding-bottom: 70px;
+            background-color: transparent;
+            &:focus
+            {
+                border: 1px solid #66afe9;
+            }
+           
+        }
+        input[type="submit"]
+        {
+            margin-bottom: 20px;
+            width: 80%;
+            border: none;
+            background-color: #028fcc;
+            padding: 10px;
+            margin-left: 5px;
+            color: #fff;
+        }
+    }
+    ul{
+        li{
+            margin: 7px;
+            i{
+                margin-right: 5px;
+                font-size: 12px;
+            }
+
+        }
+    }
+   
+}
+.footer
+{
+    text-align: center;
+    background-color: #028fcc;
+    padding-bottom: 70px;
+    img{
+        padding: 40px;
+    }
+    ul{
+        li{
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            padding: 10px;
+            background-color: #0278ab;
+            a{
+            color: #fff;
+            }
+        }
+        .s{
+            &:hover{
+            background-color: #CECB26;
+            }
+        }
+        .s1{
+            &:hover{
+            background-color: #2ac6f7;
+            }
+        }
+        .s2{
+            &:hover{
+            background-color: #ff5b92;
+            }
+        }
+        .s3{
+            &:hover{
+            background-color: #3b5999;
+            }
+        }
+        .s4{
+            &:hover{
+            background-color: #036dc0;
+            }
+        }
+        .s6{
+            &:hover{
+            background-color: #ff6b00;
+            }
+        }
+    }
+}

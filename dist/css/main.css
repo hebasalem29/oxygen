@@ -3,9 +3,16 @@ a {
   color: #fff; }
 
 body {
-  padding-bottom: 1000px;
-  overflow-x: visible; }
+  overflow-x: hidden; }
+  body .row {
+    overflow-x: hidden; }
 
+.row {
+  overflow: hidden; }
+
+/*.carousel{
+    overflow-x:hidden;
+}*/
 .header .xx {
   margin-top: -350px; }
   .header .xx h1 {
@@ -21,6 +28,8 @@ body {
     margin-top: 20px;
     font-size: 18px;
     margin-bottom: 70px; }
+  .header .xx .carousel {
+    overflow: hidden; }
   .header .xx .aa {
     border: 1px solid #6e6d6c;
     border-radius: 5px;
@@ -259,6 +268,8 @@ body {
 .team {
   margin-bottom: 100px;
   margin-bottom: 80px; }
+  .team .row {
+    overflow: hidden; }
   .team h1 {
     margin-bottom: 40px;
     font-weight: 400; }
@@ -316,6 +327,7 @@ body {
           height: 40px; }
 
 .team2 {
+  width: 107%;
   margin-bottom: 100px;
   text-align: center;
   justify-content: center;
@@ -336,6 +348,8 @@ body {
 
 .price {
   margin-bottom: 50px; }
+  .price .row {
+    overflow: hidden; }
   .price h1 {
     padding-bottom: 30px;
     font-weight: 400; }
@@ -385,11 +399,15 @@ body {
         background-color: #fff; }
 
 .the {
+  width: 107%;
   background: url("../imgs/twitter-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 150px;
-  background-position: center; }
+  background-position: center;
+  margin-bottom: 100px; }
+  .the .carousel {
+    overflow: hidden; }
   .the .bv {
     padding-top: 100px;
     color: #fff;
@@ -402,6 +420,10 @@ body {
       color: #fff;
       border-radius: 50%;
       margin-bottom: 20px; }
+  .the .carousel-caption p {
+    font-size: 15px; }
+    .the .carousel-caption p a {
+      color: #027db3; }
   .the .carousel-control-prev {
     opacity: 1;
     font-weight: bold;
@@ -430,6 +452,178 @@ body {
   .the .fr, .the .sec, .the .thr {
     padding: 50px;
     top: 60px; }
+
+.blog {
+  margin-bottom: 100px; }
+  .blog .row {
+    overflow: hidden; }
+  @media (max-width: 466px) and (min-width: 768px) {
+    .blog .col-sm-6 {
+      flex: 0 0 auto;
+      width: 50%; } }
+  .blog .box1 {
+    /*  .fr{
+            background: url('../imgs/2a.jpg');
+            background-repeat: no-repeat;
+             width: 100%;
+             height: 100%;
+            background-position: right;
+        }
+        .sec{
+
+            background: url('../imgs/1a.jpg');
+            background-repeat: no-repeat;
+            padding: 100px;
+            background-position: right;
+        }
+        .thr{
+            background: url('../imgs/3a.jpg');
+            background-repeat: no-repeat;
+            padding: 100px;
+            background-position: right;
+        }*/
+    position: relative; }
+    .blog .box1 .carousel-control-prev, .blog .box1 .carousel-control-next {
+      font-size: 18px;
+      opacity: 1; }
+    .blog .box1 .carousel-indicators {
+      right: -30px;
+      left: auto; }
+      .blog .box1 .carousel-indicators li {
+        bottom: 10px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        background-color: transparent; }
+      .blog .box1 .carousel-indicators .active {
+        background-color: #fff; }
+    .blog .box1 .ov2 {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background-color: transparent; }
+      @media (min-width: 522px) and (max-width: 575px) {
+        .blog .box1 .ov2 {
+          right: 50px; } }
+      .blog .box1 .ov2 i {
+        width: 30px;
+        padding: 8px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 12px;
+        background-color: #028ecb;
+        color: #fff; }
+    .blog .box1 .ov {
+      position: absolute;
+      bottom: 20px;
+      left: 10px;
+      color: #fff;
+      background-color: transparent; }
+      .blog .box1 .ov i {
+        margin-right: 10px; }
+  .blog .boxall {
+    margin-bottom: 40px; }
+    .blog .boxall h4 {
+      color: #028ecb;
+      font-weight: 400;
+      margin-bottom: 20px; }
+    .blog .boxall p {
+      font-size: 13px;
+      font-weight: 400;
+      color: #777;
+      margin-bottom: 30px; }
+    .blog .boxall .ps {
+      position: relative; }
+      .blog .boxall .ps:after {
+        position: absolute;
+        content: '';
+        border: 2px solid #028ecb;
+        top: 35px;
+        width: 7%;
+        left: 0; }
+
+.contact {
+  padding-bottom: 100px;
+  background: url("../imgs/contact-bg.jpg");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  .contact h1 {
+    padding-top: 80px;
+    padding-bottom: 20px; }
+  .contact p {
+    padding-bottom: 50px; }
+  @media (max-width: 786px) {
+    .contact form .rr, .contact form .ss, .contact form textarea, .contact form input {
+      width: 100% !important; } }
+  .contact form .rr {
+    width: 39%;
+    padding: 10px;
+    margin: 5px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    margin-bottom: 30px; }
+    .contact form .rr:active {
+      border: 1px solid #66afe9; }
+  .contact form .ss, .contact form textarea {
+    margin: 5px;
+    padding: 10px;
+    display: block;
+    width: 80%;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    margin-bottom: 30px; }
+    .contact form .ss:focus, .contact form textarea:focus {
+      border: 1px solid #66afe9; }
+  .contact form textarea {
+    padding-bottom: 70px;
+    background-color: transparent; }
+    .contact form textarea:focus {
+      border: 1px solid #66afe9; }
+  .contact form input[type="submit"] {
+    margin-bottom: 20px;
+    width: 80%;
+    border: none;
+    background-color: #028fcc;
+    padding: 10px;
+    margin-left: 5px;
+    color: #fff; }
+  .contact ul li {
+    margin: 7px; }
+    .contact ul li i {
+      margin-right: 5px;
+      font-size: 12px; }
+
+.footer {
+  text-align: center;
+  background-color: #028fcc;
+  padding-bottom: 70px; }
+  .footer img {
+    padding: 40px; }
+  .footer ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #0278ab; }
+    .footer ul li a {
+      color: #fff; }
+  .footer ul .s:hover {
+    background-color: #CECB26; }
+  .footer ul .s1:hover {
+    background-color: #2ac6f7; }
+  .footer ul .s2:hover {
+    background-color: #ff5b92; }
+  .footer ul .s3:hover {
+    background-color: #3b5999; }
+  .footer ul .s4:hover {
+    background-color: #036dc0; }
+  .footer ul .s6:hover {
+    background-color: #ff6b00; }
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com

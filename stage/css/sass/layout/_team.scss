@@ -1,4 +1,8 @@
 .team{
+    .row{
+        overflow:hidden;
+    }
+   
     margin-bottom: 100px;
     h1{
         margin-bottom: 40px;
@@ -94,6 +98,9 @@
         }}
     }
     .team2{
+        width: 107%;
+       
+       
         margin-bottom: 100px;
         text-align: center;
         justify-content: center;
@@ -118,6 +125,9 @@
     }
     .price
     {
+        .row{
+            overflow:hidden;
+        }
         h1{
             padding-bottom: 30px;
             font-weight: 400;
@@ -187,6 +197,11 @@
         }
     }
     .the{
+        width: 107%;
+        .carousel{
+            overflow: hidden;
+        }
+       
         background: url('../imgs/twitter-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -206,7 +221,15 @@
                 margin-bottom: 20px;
             }
         }
-        
+        .carousel-caption
+        {
+            p{
+                font-size: 15px;
+                a{
+                    color: #027db3;
+                }
+            }
+        }
     
     .carousel-control-prev{
        
@@ -251,5 +274,6 @@
         padding: 50px;
         top:60px;
     }
+    margin-bottom: 100px;
 }
 
