@@ -1,6 +1,6 @@
 .nav{
     position: relative;
-  
+   
     .ff{
         @media(max-width:768px)
         {
@@ -35,19 +35,36 @@ display: none;
         float: right;
         margin-top: -60px;
        margin-bottom: -10px;
-        li:first-of-type{
+        /*li:first-of-type{
             background-color: rgba(0,0,0,.4);
             padding: 28px 10px; 
-        }
+        }*/
         li{
             
 
             display: inline-block;
             a{font-weight: 400;
-                
+                &:hover{
+                    color: #fff;
+                }
+               
                font-weight: bold;
                 margin-left: 10px;
             }
+            
         }
     }
+    
+}
+.po{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top:0;
+    z-index: 9999;
+}
+.act{
+    
+    background-color: rgba(0,0,0,.4);
+    padding: 28px 10px;
 }
