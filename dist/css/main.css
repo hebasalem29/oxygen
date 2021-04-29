@@ -132,6 +132,8 @@ body {
   padding: 10px;
   background-color: #028fcc; }
   .nav .ff {
+    color: #fff;
+    cursor: pointer;
     position: absolute;
     top: 30px;
     display: none;
@@ -168,12 +170,38 @@ body {
   position: fixed;
   left: 0;
   width: 100%;
-  top: 0;
+  top: 0px;
   z-index: 9999; }
 
 .act {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 28px 10px; }
+
+.men {
+  background-color: #028fcc;
+  margin-top: -10px;
+  display: none;
+  color: #fff; }
+  @media (max-width: 768px) {
+    .men {
+      display: block; } }
+  .men ul {
+    width: 100%; }
+    .men ul li {
+      margin-bottom: 10px; }
+      .men ul li a {
+        margin-left: 5px; }
+        .men ul li a:hover {
+          color: #fff; }
+
+.dis {
+  display: none; }
+
+.pos {
+  position: fixed;
+  top: 80px;
+  width: 100%;
+  z-index: 999; }
 
 .serv {
   margin-bottom: 100px;

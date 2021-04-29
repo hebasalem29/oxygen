@@ -2,6 +2,8 @@
     position: relative;
    
     .ff{
+        color: #fff;
+        cursor: pointer;
         @media(max-width:768px)
         {
             display: inline-block;
@@ -60,11 +62,48 @@ display: none;
     position: fixed;
     left: 0;
     width: 100%;
-    top:0;
+    top:0px;
     z-index: 9999;
 }
 .act{
     
     background-color: rgba(0,0,0,.4);
     padding: 28px 10px;
+}
+.men{
+  
+    @media(max-width:768px)
+    {
+        display: block;
+    }
+   
+     background-color: #028fcc;
+     
+     margin-top: -10px;
+     //margin-top: 70px;
+     display: none;
+     color: #fff;
+     ul{
+         width: 100%;
+         li{
+             margin-bottom: 10px;
+             a{
+                 margin-left: 5px;
+             &:hover{
+                 color: #fff;
+             }
+            }
+
+         }
+     }
+}
+.dis{
+    display: none;
+    
+}
+.pos{
+    position: fixed;
+    top:80px;
+    width: 100%;
+    z-index: 999;
 }
