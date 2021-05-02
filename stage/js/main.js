@@ -49,8 +49,8 @@ $(function()
             console.log('yes');
             $('.nav').children().children('ul').children().removeClass("act");
             $('.nav').children().children('ul').children("li.ab").addClass("act");
-            $('.men').children().children().removeClass("act");
-            $('.men').children().children("li.ab").addClass("act");
+            $('.men').children().children().removeClass("act1");
+            $('.men').children().children("li.ab").addClass("act1");
 
 
         }
@@ -59,8 +59,8 @@ $(function()
             console.log('yes');
             $('.nav').children().children('ul').children().removeClass("act");
             $('.nav').children().children('ul').children("li.ac").addClass("act");
-            $('.men').children().children().removeClass("act");
-            $('.men').children().children("li.ac").addClass("act");
+            $('.men').children().children().removeClass("act1");
+            $('.men').children().children("li.ac").addClass("act1");
             
 
         }
@@ -69,8 +69,8 @@ $(function()
             console.log('yes');
             $('.nav').children().children('ul').children().removeClass("act");
             $('.nav').children().children('ul').children("li.ad").addClass("act");
-            $('.men').children().children().removeClass("act");
-            $('.men').children().children("li.ad").addClass("act");
+            $('.men').children().children().removeClass("act1");
+            $('.men').children().children("li.ad").addClass("act1");
 
         }
         if($(window).scrollTop()>($('.port').offset().top)-50)
@@ -78,8 +78,8 @@ $(function()
             console.log('yes');
             $('.nav').children().children('ul').children().removeClass("act");
             $('.nav').children().children('ul').children("li.ad").nextUntil("li.af").addClass("act");
-            $('.men').children().children().removeClass("act");
-            $('.men').children().children("li.ae").addClass("act");
+            $('.men').children().children().removeClass("act1");
+            $('.men').children().children("li.ae").addClass("act1");
 
         }
         if($(window).scrollTop()>($('.team').offset().top)-200)
@@ -87,8 +87,8 @@ $(function()
             console.log('yes');
             $('.nav').children().children('ul').children().removeClass("act");
             $('.nav').children().children('ul').children("li.ae").nextUntil("li.ag").addClass("act");
-            $('.men').children().children().removeClass("act");
-            $('.men').children().children("li.af").addClass("act");
+            $('.men').children().children().removeClass("act1");
+            $('.men').children().children("li.af").addClass("act1");
 
         }
         if($(window).scrollTop()>=($('.blog').offset().top)-100)
@@ -97,8 +97,8 @@ $(function()
             console.log('yes');
             $('.nav').children().children('ul').children().removeClass("act");
             $('.nav').children().children('ul').children("li.ag").addClass("act");
-            $('.men').children().children().removeClass("act");
-            $('.men').children().children("li.ag").addClass("act");
+            $('.men').children().children().removeClass("act1");
+            $('.men').children().children("li.ag").addClass("act1");
 
         }
         if($(window).scrollTop()>($('.contact').offset().top)-50)
@@ -106,8 +106,8 @@ $(function()
             console.log('yes');
             $('.nav').children().children('ul').children().removeClass("act");
             $('.nav').children().children('ul').children("li.ah").addClass("act");
-            $('.men').children().children().removeClass("act");
-            $('.men').children().children("li.ah").addClass("act");
+            $('.men').children().children().removeClass("act1");
+            $('.men').children().children("li.ah").addClass("act1");
 
         }
         else{

@@ -13,6 +13,9 @@ body{
 .row{
     overflow:hidden;
 }
+*{
+    transition: all .2s ease-in-out;
+}
 /*.carousel{
     overflow-x:hidden;
 }*/

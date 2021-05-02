@@ -10,16 +10,19 @@
     }
     
     .box1{
-      //  position: relative;
+        .sd{
+            
+        }
         .carousel-control-prev,.carousel-control-next{
             font-size: 18px;
             opacity: 1;
         }
-      /*  .fr{
+       /* .fr{
             background: url('../imgs/2a.jpg');
             background-repeat: no-repeat;
              width: 100%;
              height: 100%;
+             padding: 100px;
             background-position: right;
         }
         .sec{
@@ -90,6 +93,7 @@
     }
 }
 .boxall{
+    
     margin-bottom: 40px;
     
 h4{

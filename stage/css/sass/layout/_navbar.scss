@@ -1,7 +1,12 @@
 .nav{
     position: relative;
    
+    
     .ff{
+        border: 1px solid #fff;
+        border-radius: 2px;
+        padding: 10px 15px;
+       
         color: #fff;
         cursor: pointer;
         @media(max-width:768px)
@@ -9,10 +14,12 @@
             display: inline-block;
         }
         position: absolute;
-        top:30px ;
+        top:20px ;
+       padding:  5px 10px;
         display: none;
       
         right: 10px;
+         
     }
     @media(max-width:900px)
     {
@@ -29,7 +36,9 @@
         }
     }
     background-color: #028fcc;
-    ul{
+     
+    .uu{
+
         @media(max-width:768px)
         {
 display: none;
@@ -71,11 +80,23 @@ display: none;
     padding: 28px 10px;
 }
 .men{
+    left: 0;
   
     @media(max-width:768px)
+    
     {
-        display: block;
+        ul{
+        display: block !important;
+        }
     }
+    @media(min-width:768px)
+    
+    {
+        ul{
+            display: none !important;
+            }
+    }
+
    
      background-color: #028fcc;
      
@@ -87,6 +108,7 @@ display: none;
          width: 100%;
          li{
              margin-bottom: 10px;
+             margin: 20px 0px;
              a{
                  margin-left: 5px;
              &:hover{
@@ -98,7 +120,7 @@ display: none;
      }
 }
 .dis{
-    display: none;
+    display: block;
     
 }
 .pos{
@@ -106,4 +128,9 @@ display: none;
     top:80px;
     width: 100%;
     z-index: 999;
+}
+.act1{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 0;
+    width: 100%;
 }

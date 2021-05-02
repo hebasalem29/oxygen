@@ -29,6 +29,7 @@
            
         }
         .aa{
+            white-space: nowrap;
             
             border: 1px solid #6e6d6c;
             border-radius: 5px;
@@ -90,6 +91,8 @@
         font-weight: bold;
      width: 15px;
      margin-left: 50px;
+     vertical-align: center;
+     position: absolute;
      span{
         i{
     color: #028ecb;
